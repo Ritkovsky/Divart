@@ -1,0 +1,84 @@
+*
+{
+    margin: 0px;
+    font-family: 'Press Start 2P', cursive;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.dedication
+{
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(230, 150, 0, 0.325);
+}
+.text
+{
+    padding: 20%;
+    font-size: 4vw;
+    text-align: center;
+    line-height: 6vw;
+}
+.image
+{
+    width: 40px;
+    float: left;
+}
+.small-text
+{
+    padding: 0px;
+    font-size: 8px;
+    width: fit-content;
+    text-align: center;
+}
+.credits
+{
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.box
+{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    grid-row: 10;
+    grid-column: auto;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 100vw;
+    height: max-content;
+}
+.black-div,.lightorange-div,.brown-div,.orange-div,.red-div,.white-div,.yellow-div
+{
+    width: 4.7619047619vw;
+    height: 4.7619047619vw;
+}
+.lightorange-div
+{
+    background-color: rgba(230, 150, 0, 0.325);
+}
+.orange-div
+{
+    background-color: #FE8502;
+}
+.yellow-div
+{
+    background-color: #FFFF00;
+}
+.brown-div
+{
+    background-color: #795547;
+}
+
+.red-div
+{
+    background-color: #F44236;
+}
+.black-div
+{
+    background-color: #000;
+}
+.white-div
+{
+    background-color: white;
+}
